@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import CoinMarket from './CoinMarket'
+import CoinData from './CoinData'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <CoinMarket/>
+        <CoinData/>
       </div>
     );
   }
