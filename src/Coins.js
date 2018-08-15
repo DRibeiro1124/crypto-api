@@ -4,12 +4,12 @@ class Coins extends Component {
     render () {
         return (
             <table>
-                <thead></thead>
-                <thead></thead>
-                <thead></thead>
-                <thead></thead>
-                <thead></thead>
-                <thead></thead>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
             </table>
         )
     }

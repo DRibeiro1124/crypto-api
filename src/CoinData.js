@@ -15,10 +15,10 @@ componentDidMount () {
     fetch(_url).then(resp => resp.json())
         .then(newCoinData => {
             console.log(newCoinData)
-            let coins = Object.values(newCoinData.data)
-            console.log(coins)
+            let cryptoCoins = Object.values(newCoinData.data)
+            console.log(cryptoCoins)
             this.setState({
-                coinArray : coins
+                coinArray : cryptoCoins
             })
             // console.log(this.state.coinArray[0].name)
             // console.log(this.state.coinArray[1].name)
@@ -33,6 +33,9 @@ componentDidMount () {
         return (
             <div>
                 Current up to date Crypto Currency info:
+                {/* <div>
+                    <Coins cryptoCoins={this.state.cryptoCoins}
+                </div> */}
             </div>           
         );
     }
