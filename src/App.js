@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import CryptoMarket from './CryptoMarket';
+// import './index';
 
 class App extends Component {
   render () {
     return (
       <section className="App">
-      <h1>Up to date Crypto Currencies</h1>
+      <h1></h1>
       <table>
         <tbody>
           <tr>

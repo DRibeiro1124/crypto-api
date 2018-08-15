@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 .App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
+  align-content: center;
+  background-color: #EAF2EF;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .App-logo {
@@ -25,4 +33,33 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.App th {
+  border: 1px solid black;
+  font-family: Lucida Sans;
+  font-size: 20px;
+  background-color: darkgreen;
+  color: #EAF2EF;
+}
+
+.App h1 {
+  font-family: fantasy;
+  font-size: 45px;
+  background-image: url(./images/binarni.jpg);
+  padding: 90px;
+  margin-bottom: 1px;
+  /* color: gold; */
+}
+
+.App td {
+  border: 1px solid black;
+}
+
+.App tr:nth-child(even) {
+  background: #53DD6C;
+}
+
+.App tr:nth-child(odd) {
+  background: white;
 }
